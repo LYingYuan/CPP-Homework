@@ -8,13 +8,7 @@ class A{
     y = _y;
   }
   virtual int op () =0;
-  int getX(){
-    return x;
-  }
-  int getY(){
-    return y;
-  }
-
+  
   int x;
   int y;
 };
